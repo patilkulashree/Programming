@@ -6,10 +6,10 @@ class PPA
   public: 
         int no1;
         int no2;
- PPA()
- {
+PPA()
+{
    cout<<"Inside Default Constructor\n";
- }
+}
 PPA(int a,int b)
 {
  cout<<"Inside Parameterized Constructor\n";

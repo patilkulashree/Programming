@@ -18,7 +18,7 @@ int main()
  
  cout<<dobj.i<<"\n";
  cout<<dobj.ch<<"\n";
- cout<<dobj.f<<"\n";
+ cout<<dobj.f<<"\n"; 
  return 0;
 }
  
