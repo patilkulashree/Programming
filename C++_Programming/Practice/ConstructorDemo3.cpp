@@ -1,7 +1,8 @@
 #include <iostream>
+
 using namespace std;
 
-class PPA
+class PPA                                                                                                                                                                                                                                                                         
 {
   public: 
         int no1;
