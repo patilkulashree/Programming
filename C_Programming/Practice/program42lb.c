@@ -22,5 +22,5 @@ int main()
 
    iResult=Maximum(iValue1,iValue2);
    printf("Maximum number is :%d",iResult);
-   return EXIT_SUCCCESS;
+   return EXIT_SUCCESS;
 }
