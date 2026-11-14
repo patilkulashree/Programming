@@ -1,0 +1,50 @@
+ /*
+
+#   *   *   *
+$   #   *   *
+$   $   #   *
+$   $   $   #
+
+*/
+#include<iostream>
+#include<stdlib.h>
+using namespace std;
+
+void Pattern(int irow,int icol)
+{
+  int i = 0, j = 0;
+  if(irow != icol)
+  {
+    printf("Invalid Number \n");
+    return ;
+  }
+  for(i = 1 ; i <=irow ; i++)
+  {
+    for( j = 1; j <=icol ; j++)
+     {
+       if(i == j)
+       {
+         printf("#\t");
+       }
+       else if(i > j)
+       {
+          printf("$\t");
+       }
+       else
+       {
+          printf("*\t"); 
+       }
+     }printf("\n");
+  }
+}
+int main()
+{
+  int ivalue1 = 0,ivalue2 = 0;
+  cout<< "Enter number of rows :" << endl;
+  cin >> ivalue1;
+  cout<< "Enter number of columns :"<<endl;
+  cin >> ivalue2;
+  Pattern(ivalue1,ivalue2);
+  return EXIT_SUCCESS;
+}
+  
