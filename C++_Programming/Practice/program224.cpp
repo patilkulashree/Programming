@@ -42,7 +42,7 @@ int main()
   int ivalue1 = 0,ivalue2 = 0;
   cout<< "Enter number of rows :" << endl;
   cin >> ivalue1;
-  cout<< "Enter number of columns :"<<endl;
+  cout<< "Enter number of columns :"<< endl;
   cin >> ivalue2;
   Pattern(ivalue1,ivalue2);
   return EXIT_SUCCESS;
