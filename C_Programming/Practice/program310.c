@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void Display(int *ptr)
+{
+ printf("%d\n",*ptr);
+}
+int main()
+{
+ int arr[5]={11,21,51,101,111};
+ Display(arr);
+
+ return EXIT_SUCCESS;
+}
